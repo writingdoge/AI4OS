@@ -25,4 +25,4 @@ We plan to begin with small, time-bounded experiments using public benchmarks an
 [OPPerTune: Post-Deployment Configuration Tuning of Services Made Easy](https://www.usenix.org/conference/nsdi24/presentation/somashekar). NSDI, 2024. Online configuration tuning using reinforcement learning. [Source code](https://github.com/microsoft/OPPerTune).
 
 **TuxBot**  
-[TuxBot: Semantic-Aware Online OS Tuning with Large Language Models](https://github.com/Columbia-DAP-Lab/TuxBot). An LLM-guided Linux tuning system, with a public research artifact.
+[TuxBot: Semantic-Aware Online OS Tuning with Large Language Models](https://github.com/Columbia-DAP-Lab/TuxBot). An LLM-guided Linux tuning system.
