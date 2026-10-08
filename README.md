@@ -8,10 +8,9 @@ AI4OS is an academic research project on online operating-system tuning. Its goa
 
 Linux exposes configurable parameters across multiple subsystems. Their effects depend on the workload, hardware, and configuration of other subsystems. We plan to study runtime adjustment of these parameters using system telemetry and application-level performance feedback.
 
-The experimental scope includes CPU scheduling, memory management, storage I/O, networking, interrupt handling, and CPU power management. We will examine throughput, tail latency, adaptation time, and tuning overhead under controlled workloads, including workload changes.
+The experimental scope includes CPU scheduling, memory management, storage I/O, networking, interrupt handling, and CPU power management. We will examine throughput, tail latency, adaptation time, and tuning overhead under controlled workloads.
 
-Initial work will reproduce selected experiments from existing research and establish comparable baselines. Candidate references include MLOS for automated experimentation and conventional optimization, OPPerTune for post-deployment online configuration tuning, and TuxBot for LLM-guided OS tuning. Where necessary, methods will be adapted to a common workload and parameter interface; such adaptations will be distinguished from direct reproduction.
-
+Initial work will reproduce selected experiments from existing research and establish comparable baselines. Candidate references include MLOS for automated experimentation and conventional optimization, OPPerTune for post-deployment online configuration tuning, and TuxBot for LLM-guided OS tuning. Where necessary, methods will be adapted to a common workload and parameter interface.
 CloudLab's bare-metal access is needed to control host-level settings and observe their effects with predictable performance isolation. Conventional cloud VMs may hide or restrict physical CPU power controls, interrupt configuration, and other host-level interfaces. Experiments may also require rebuilding or modifying the Linux kernel to enable instrumentation or expose experimental controls on allocated nodes.
 
 We plan to begin with small, time-bounded experiments using public benchmarks and synthetic data. Resources will be released when experiments finish, and CloudLab's management, monitoring, and access mechanisms will be preserved. The project is intended for non-commercial academic research, with findings to be disseminated through scholarly publications or research reports.
