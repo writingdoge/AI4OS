@@ -1,4 +1,4 @@
-**AI4OS: Online Operating-System Tuning**
+# AI4OS: Online Operating-System Tuning
 
 Investigating AI-assisted runtime configuration of operating systems for cloud workloads.
 
